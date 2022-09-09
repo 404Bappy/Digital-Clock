@@ -1,0 +1,47 @@
+.logo {
+
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    font-size: 72.5%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(65, 10, 10);
+    color: #fff;
+
+}
+
+#clock {
+    font-size: 9rem;
+    width: 60rem;
+    margin: 20rem;
+    text-align: center;
+    border: 2px solid rgb(213, 171, 33);
+    border-radius: 20px;
+    background: rgb(rgb(9, 147, 114)));
+
+    box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.75),
+        10px 10px 70px rgba(0, 0, 0, 0.25),
+        inset 5px 5px 10px rgba(0, 0, 0, 0.5),
+        inset 5px 5px 20px rgba(255, 255, 255, 0.2),
+        inset -5px -5px 15px rgba(0, 0, 0, 0.75);
+
+}
+
+@media (max-width:380px) {
+    html {
+        font-size: 45%;
+    }
+}
