@@ -24,11 +24,11 @@ body {
 }
 
 #clock {
-    font-size: 9rem;
-    width: 60rem;
+    font-size: 10rem;
+    width: 70rem;
     margin: 20rem;
     text-align: center;
-    border: 2px solid rgb(213, 171, 33);
+    border: 5px solid rgb(126, 171, 64);
     border-radius: 20px;
     background: rgb(rgb(9, 147, 114)));
 
